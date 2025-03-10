@@ -1,0 +1,10 @@
+{
+  "main":"./scripts/main.js",
+  "scripts": {
+     "start": "electron .",
+    "build": "electron-packager . MyApp --platform=win32 --arch=x64 --out=dist/"
+  },
+  "devDependencies": {
+    "electron": "^34.2.0"
+  }
+}
